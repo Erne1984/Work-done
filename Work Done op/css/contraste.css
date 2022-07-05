@@ -1,0 +1,744 @@
+/*zerar margem*/ 
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Bangla', serif;
+    font-family: 'Saira', sans-serif;
+    background-color: #000;
+    
+}
+
+
+.topo{
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    
+}
+
+.logoTopo{
+    height: 40px;
+    width: 70px;
+    margin: 5px 45px 0 10px;
+    float: left;
+}
+
+.topo ul{
+    font-size: 100%;
+    list-style-type: none;
+    
+}
+
+.topo ul li{
+    display: inline;
+    
+}
+
+.topo ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s; 
+}
+
+.topoEsquerda{
+    float: right;
+}
+/*edição menu de navegação*/
+
+
+#menu_nav ul {
+    font-size: 100%;
+    list-style-type: none;
+    
+}
+
+#menu_nav ul li {
+    display: inline;
+}
+
+#menu_nav ul li a{ 
+    color:#fff;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 0 20px 0 0;
+    display: inline-block;
+    transition: background .4s; 
+}
+
+#menu_nav ul li a:hover { 
+    text-decoration: underline;
+    color: yellow;
+    
+}
+
+.menuEsquerda{
+    float: right;
+    margin: 0 0 0 0;
+   
+}
+
+/*fim menu de navegação*/
+
+
+
+/*conteudo*/
+
+
+#titulo2 {
+    margin: 13% 0 0 0;
+    float: left;
+    border-radius: 10%;
+}
+.workDone{
+    color: #fff;
+    margin: 0 0 0 50;
+    font-size: 60px;
+    width:100%;
+    font-family: 'Saira', sans-serif;
+}
+
+.frase_efeito {
+    margin: 10% 0 0 0; 
+    font-size: 30px;
+    color: #fff;
+}
+
+/*fim conteudo*/
+
+.logo {
+    float: right;
+    margin: 12% 1% 0 0;
+    
+}
+
+.Ilogo{
+    height: 495px;
+    width: 595px;
+}
+
+
+
+
+
+.FraseEfeito{
+    
+    margin: 0;
+    padding: 0;
+}
+
+/*rodape*/
+
+
+html, body {
+	height: 100%;
+	}
+
+#tudo {
+	min-height: 100%;
+
+	}
+
+* html #tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+	}
+
+    #tudo {
+        position: relative;
+       
+        }
+#rodape {
+    position: absolute;
+    bottom: 0;
+    background-color: 	#000;
+    color: #FFF;
+    width: 100%;
+  
+   
+    
+}
+#linha{
+    height: 2px;
+    width: 500px;
+    background-color: #f58A07;
+}
+
+#todoRodape{
+   margin: 2% 0 0 5%;
+}
+
+#listaRodape1{
+    float: left;
+}
+
+#listaRodape1 ul{
+    margin: 5% 0 0 0;
+}
+
+#listaRodape1 ul a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#listaRodape1 ul li a:hover{
+     text-decoration: underline;
+    color: yellow;
+}
+
+#listaRodape2{
+    float: left;
+    margin: 5% 0 0 10%;
+}
+
+#listaRodape2 ul a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#listaRodape2 ul a:hover{
+    text-decoration: underline;
+    color: yellow;
+    
+}
+
+#entreEmcontato{
+    color: #fff;
+}
+
+#desenvolvidoPor{
+    float: right;
+    margin: 9%  9% 0 0;
+}
+/*rodape*/
+
+/*tela de cadastro*/
+
+
+#cadastro {
+    
+    background-color: #000;
+    color: white;
+    width:30%;
+    height: 600px;
+    text-align: left;
+    margin: 3% 0 0 35%; 
+    border-radius: 5%;
+    
+    
+    
+ }
+
+ .titutloCadastro{
+     padding: 50px 0 0 0;
+     text-align: center;
+ }
+
+ .formularioCadastro{
+     margin: 10px 0 25px 0;
+     width: 80%;
+ }
+
+ input[type=text] {
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #000;
+    color: #FFF;
+  }
+
+ .TodoOFormulario{
+    margin: 10% 0 5% 15%;
+    
+     
+ }
+
+ .Botao{
+     margin: 1% 0 0 31%;
+     padding: 15px 32px;
+     display: inline-block;
+     width: 200px;
+     border: none;
+     border-radius: 10%;
+     cursor: pointer;
+     
+ }
+
+/*  login*/
+
+.loginSenhaClienteTUDO{
+    margin: 7% 0 0 35%;
+}
+
+.loginSenhaCliente a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.loginSenhaCliente a:hover{
+
+    color: yellow;
+    text-decoration: underline;
+}
+ 
+/*  barra menu profissionais*/
+ 
+#profissional_menu {
+
+    background-color:#000;
+    width: 70%; 
+    height: 350px;
+    border-radius: 5%;
+    margin: 10% 0 0 14%;
+}
+
+.casaEp {
+    margin: 0 0 0 5%;
+    padding: 5% 0 0 0;
+    float: left;
+    font-size: 70px;
+}
+.casaEp a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.casaEp a :hover{
+    
+    color: yellow;
+}
+
+.homens{
+    float: right;
+
+}
+
+.FraseProfissional{
+    margin: 7% 0 0 30%;
+    font-size: 20px;
+    color: #fff;
+}
+
+/*  como funciona */
+
+.caixa1{
+    width: 400px;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    margin: 10% 10% 0 0;
+    border-radius: 5%;
+    padding: 1% 0 0 1%;
+    border:yellow;
+   
+}
+
+
+.caixa2{
+    width: 400px;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    float: left;
+    margin: 10% 0 0 0;
+    border-radius: 5%;
+    padding: 1% 0 0 1%;
+    border:yellow;
+}
+
+.caixa3{
+    width: 400px;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    float: right;
+    margin: 10% 10% 0 0;
+    border-radius: 5%;
+    padding: 1% 0 0 1%;
+    border:yellow;
+    
+}
+
+.estrelas{
+    width: 138px;
+    height: 18px;
+    float: left;
+}
+
+.comoFuncionaMeio{
+    height: 400px;
+    width: 70%;
+    background-color: #000;
+    margin: 200px 0 0 250px;
+    border-radius: 5%;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.Botao2{
+    margin: 3% 4% 0 10%;
+    padding: 10px 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 17px;
+    border: yellow;
+
+
+}
+
+.a{
+    float: right;
+}
+
+/*PAGINA ACESSIBILIDADE*/
+
+#titulo_acessiblidade {
+
+    width: 30%;
+    text-align: center;
+    margin: 10% 0 0 32%;
+   
+}
+
+.contraste{
+    float: right;
+}
+
+/* acessibilidade */
+
+#textoAcessibilidade{
+    height: 1400px;
+    width: 1250px;
+    background-color: #000;
+    margin: 0 0 0 250px;
+    border-radius: 5%;
+    padding: 50px 0 0 20px;
+    font-size: 20px;
+    color: #fff;
+    border:yellow
+}
+
+ 
+ 
+
+/*reponsivo index*/
+
+@media only screen and (max-width: 1385px ) {
+
+    .Ilogo{
+        height: 395px;
+        width: 495px;
+        
+    }
+
+    #titulo2 {
+        margin: 10% 0 0 0;
+        border-radius: 10%;
+    }
+
+    .workDone{
+        color: #fff;
+        margin: 0 0 0 50;
+        font-size: 50px;
+        width:100%;
+        font-family: 'Saira', sans-serif;
+    }
+
+    .frase_efeito {
+        margin: 10% 0 0 0; 
+        font-size: 25px;
+        color:#fff;
+    }
+    
+}
+
+@media only screen and (max-width: 1174px ) {
+
+    .Ilogo{
+        height: 300px;
+        width: 400px;
+        margin:20% 0 0 0;
+        
+    }
+
+    #titulo2 {
+        margin: 10% 0 0 0;
+        border-radius: 10%;
+    }
+
+    .workDone{
+        color:#fff;
+        margin: 0 0 20% 0;
+        font-size: 40px;
+        float: left;
+        width:100%;
+        font-family: 'Saira', sans-serif;
+    }
+
+    .frase_efeito {
+        margin: 10% 0 0 0; 
+        font-size: 20px;
+        color:#fff;
+    }
+    
+}
+
+@media only screen and (max-width: 927px ) {
+
+    .logo {
+        text-align: center;
+        margin: 8% 1% 0 0;
+        
+    }
+
+    .Ilogo{
+        height: 300px;
+        width: 400px;
+      
+        
+    }
+
+    #titulo2 {
+        margin: 10% 0 0 0;
+        border-radius: 10%;
+    }
+
+    .workDone{
+        color:#fff;
+        margin: 0 0 20% 0;
+        font-size: 40px;
+        width:100%;
+        font-family: 'Saira', sans-serif;
+        text-align: center;
+    }
+
+    .frase_efeito {
+        margin: 10% 0 0 0; 
+        font-size: 20px;
+        text-align: center;
+        color:#fff;
+    }
+    
+}
+
+
+/*reponsivo como funciona*/
+
+@media only screen and (max-width: 1349px ) {
+
+
+
+.comoFuncionaMeio{
+    height: 400px;
+    width: 70%;
+    background-color: #000;
+    margin: 200px 0 0 250px;
+    border-radius: 5%;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.Botao2{
+    margin: 3% 4% 0 10%;
+    padding: 10px 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30%;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 15px;}
+
+
+}       
+
+@media only screen and (max-width: 1349px ) {
+
+
+
+    .comoFuncionaMeio{
+        height: 400px;
+        width: 70%;
+        background-color: #000;
+        margin: 200px 0 0 250px;
+        border-radius: 5%;
+        color: #FFF;
+        font-size: 13px;
+    }
+    
+    .Botao2{
+        margin: 3% 4% 0 10%;
+        padding: 10px 20px;
+        width: 100px;
+        height: 50px;
+        border-radius: 30%;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        font-size: 10px;}
+    
+    
+    } 
+
+
+/*reponsivo sou profissional*/
+
+@media only screen and (max-width: 1611px ) {
+
+#profissional_menu {
+
+    background-color:#000;
+    width: 70%; 
+    height: 350px;
+    border-radius: 5%;
+    margin: 10% 0 0 14%;
+}
+
+.casaEp {
+    margin: 0 0 0 5%;
+    padding: 5% 0 0 0;
+    float: left;
+    font-size: 70px;
+}
+.casaEp a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.casaEp a :hover{
+    
+    color: yellow;
+}
+
+.homens{
+    float: right;
+    height: 350px;
+    width: 415px;
+
+}
+
+.FraseProfissional{
+    margin: 7% 0 0 30%;
+    font-size: 20px;
+    color: #fff;
+}
+
+}
+
+@media only screen and (max-width: 1368px ) {
+
+    #profissional_menu {
+    
+        background-color:#000;
+        width: 70%; 
+        height: 350px;
+        border-radius: 5%;
+        margin: 10% 0 0 14%;
+    }
+    
+    .casaEp {
+        margin: 0 0 0 5%;
+        padding: 5% 0 0 0;
+        float: left;
+        font-size: 60px;
+    }
+    .casaEp a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .casaEp a :hover{
+        
+        color: yellow;
+    }
+    
+    .homens{
+        float: right;
+        height: 340px;
+        width: 395px;
+    
+    }
+    
+    .FraseProfissional{
+        margin: 7% 0 0 27%;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    }
+
+    @media only screen and (max-width: 1231px ) {
+
+        #profissional_menu {
+        
+            background-color:#000;
+            width: 70%; 
+            height: 350px;
+            border-radius: 5%;
+            margin: 10% 0 0 14%;
+        }
+        
+        .casaEp {
+            margin: 0 0 0 5%;
+            padding: 5% 0 0 0;
+            float: left;
+            font-size: 50px;
+        }
+        .casaEp a{
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .casaEp a :hover{
+            
+            color: yellow;
+        }
+        
+        .homens{
+            float: right;
+            height: 320px;
+            width: 380px;
+        
+        }
+        
+        .FraseProfissional{
+            margin: 7% 0 0 27%;
+            font-size: 20px;
+            color: #fff;
+        }
+        
+        }
+
+
+/*responsivel acessbilidade*/
+
+@media only screen and (max-width: 1521px ) {
+
+
+
+    #textoAcessibilidade{
+        height: auto;
+        width: auto;
+        background-color: #000;
+        margin: 0 10% 0 20%;
+        border-radius: 5%;
+        padding: 50px 0 0 20px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+}
+
+/*responsível serviços*/
+
